@@ -1,3 +1,8 @@
+<?php
+    declare(strict_types = 1);
+    include 'includes/AutoLoaderIncluded.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +13,7 @@
 </head>
 <body>
     
-    <form action="" method="POST">
+    <form action="includes/CalculateIncluded.php" method="POST">
         <p>Basic Calculator in PHP</p>
         <input type="number" name="num1" placeholder="First Number">
         <select name="operator">
