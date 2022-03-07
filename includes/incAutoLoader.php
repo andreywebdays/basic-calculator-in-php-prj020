@@ -1,8 +1,8 @@
 <?php
 
-spl_autoload_register('my_auto_loader');
+spl_autoload_register('myAutoLoader');
 
-function my_auto_loader ($class_name) 
+function myAutoLoader ($class_name) 
 {
     $url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];    
 
